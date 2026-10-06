@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+.cadastro-main {
+	gap: 16px;
+	height: calc(100vh - 85px);
+	min-width: 0;
+	overflow-x: hidden;
+	padding: 12px 10px 25px;
+}
+
+.cadastro-form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 100%;
+	min-width: 0;
+}
+
+.cadastro-form fieldset {
+	display: block;
+	width: 100%;
+	min-width: 0;
+	max-width: 100%;
+	padding: 8px 10px 10px;
+}
+
+.cadastro-form legend,
+.cadastro-usuario legend {
+	padding: 0 4px;
+}
+
+.cadastro-linha {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	min-width: 0;
+	margin: 9px 0;
+}
+
+.cadastro-linha label {
+	width: auto;
+	min-width: 96px;
+	padding: 0 2px 0 0;
+}
+
+.cadastro-linha input,
+.cadastro-linha select {
+	min-width: 0;
+	height: 22px;
+	padding: 1px 4px;
+}
+
+.campo-codigo {
+	width: 115px;
+}
+
+.campo-cnpj {
+	width: 162px;
+	flex-shrink: 1;
+}
+
+.campo-razao,
+.campo-email {
+	width: 285px;
+	max-width: 100%;
+	flex-shrink: 1;
+}
+
+.campo-fantasia {
+	width: 162px;
+	max-width: 100%;
+	flex-shrink: 1;
+}
+
+.campo-tipo-telefone {
+	width: 125px;
+}
+
+.campo-ddd {
+	width: 39px;
+}
+
+.campo-telefone {
+	width: 134px;
+}
+
+.campo-tipo-logradouro {
+	width: 114px;
+}
+
+.campo-logradouro {
+	flex: 1;
+	min-width: 160px;
+	max-width: 100%;
+}
+
+.campo-numero {
+	width: 77px;
+}
+
+.campo-complemento {
+	width: 143px;
+}
+
+.campo-bairro {
+	flex: 1;
+	min-width: 120px;
+	max-width: 100%;
+}
+
+.campo-cep {
+	width: 96px;
+}
+
+.campo-cidade {
+	width: 172px;
+}
+
+.campo-estado {
+	width: 96px;
+}
+
+.campo-pais {
+	width: 134px;
+}
+
+.cadastro-acoes {
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+	margin-top: 8px;
+	padding-right: 32px;
+}
+
+.cadastro-acoes button {
+	padding: 3px 9px;
+}
+
+.cadastro-usuario {
+	margin-top: auto;
+}
+
+.cadastro-usuario fieldset {
+	display: block;
+	padding: 10px;
+}
+
+@media (max-width: 700px) {
+	.cadastro-linha {
+		align-items: stretch;
+		flex-direction: column;
+	}
+
+	.cadastro-linha label {
+		min-width: 0;
+	}
+
+	.cadastro-linha input,
+	.cadastro-linha select,
+	.campo-logradouro,
+	.campo-bairro {
+		width: 100%;
+	}
+
+	.cadastro-acoes {
+		justify-content: flex-start;
+		padding-right: 0;
+	}
+}

@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+.inativar-main {
+	gap: 16px;
+	height: calc(100vh - 85px);
+	min-width: 0;
+	overflow-x: hidden;
+	padding: 12px 10px 25px;
+}
+
+.inativar-conteudo {
+	padding: 0 14px;
+}
+
+.inativar-fornecedor {
+	margin: 4px 0 16px;
+}
+
+.inativar-categoria,
+.inativar-justificativa {
+	display: flex;
+	align-items: flex-start;
+	gap: 8px;
+	margin-bottom: 9px;
+}
+
+.inativar-categoria label,
+.inativar-justificativa label {
+	width: 90px;
+	padding: 4px 0 0;
+}
+
+.inativar-categoria select {
+	width: 258px;
+	height: 23px;
+	padding: 1px 4px;
+}
+
+.inativar-justificativa textarea {
+	width: min(100%, 405px);
+	height: 80px;
+	resize: vertical;
+	padding: 4px;
+	border: 2px solid #777;
+}
+
+.inativar-acoes {
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+	padding-right: 12px;
+}
+
+.inativar-acoes button {
+	padding: 3px 9px;
+}
+
+.inativar-usuario {
+	margin-top: auto;
+}
+
+.inativar-usuario fieldset {
+	display: block;
+	padding: 10px;
+}
+
+@media (max-width: 520px) {
+	.inativar-categoria,
+	.inativar-justificativa {
+		flex-direction: column;
+	}
+
+	.inativar-categoria label,
+	.inativar-justificativa label,
+	.inativar-categoria select,
+	.inativar-justificativa textarea {
+		width: 100%;
+	}
+
+	.inativar-acoes {
+		justify-content: flex-start;
+		padding-right: 0;
+	}
+}
