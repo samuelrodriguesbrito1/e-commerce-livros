@@ -1,29 +1,29 @@
 ---
 name: Relatar um problema
 about: Relate um problema encontrado no projeto
-title: "[BUG] "
+title: "[TÍTULO_BUG] "
 labels: bug
 assignees: "samuelrodriguesbrito1"
 ---
 
-## Descrição
+#### Descrição
 
 Descreva o problema encontrado.
 
-## Como reproduzir
+#### Como reproduzir
 
 1.
 2.
 3.
 
-## Resultado esperado
+#### Resultado esperado
 
 O que deveria acontecer?
 
-## Resultado atual
+#### Resultado atual
 
 O que está acontecendo?
 
-## Informações adicionais
+#### Informações adicionais
 
 Adicione prints, mensagens de erro ou outras informações relevantes.
