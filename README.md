@@ -47,7 +47,7 @@ Com o navegador aberto na url, você pode acessar as quatro telas usando o hash 
 - `#/cadastro` - Para tela de cadastro
 - `#/inativar` - Para tela de inativar
 
-Exemplo de uso para tela de resultado:
+No seu navegador, você pode colocar essa url para ver a tela de resultado por exemplo:
 
 ```text
 http://localhost:8000/#/resultado
