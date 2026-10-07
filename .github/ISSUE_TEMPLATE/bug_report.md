@@ -3,7 +3,7 @@ name: Relatar um problema
 about: Relate um problema encontrado no projeto
 title: "[BUG] "
 labels: bug
-assignees: ""
+assignees: "samuelrodriguesbrito1"
 ---
 
 ## Descrição
